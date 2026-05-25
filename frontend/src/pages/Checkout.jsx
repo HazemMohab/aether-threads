@@ -160,7 +160,7 @@ export default function Checkout() {
                         className="input"
                       />
                     </div>
-                    <p className="text-xs text-gray-400">🔒 Payment is simulated — no real charge will be made</p>
+                    <p className="text-xs text-gray-400">🔒 Your payment details are encrypted and secure</p>
                   </div>
                 )}
               </div>
