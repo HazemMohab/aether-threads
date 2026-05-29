@@ -12,7 +12,7 @@ export async function up(knex) {
       email: 'customer@example.com',
       full_name: 'Demo Customer',
       password: 'Customer123!',
-      role: 'user',
+      role: 'customer',
     },
   ];
 
