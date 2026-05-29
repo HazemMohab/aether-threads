@@ -50,7 +50,7 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="mt-6 text-center">
+          <div className="mt-8 text-center">
             <p className="text-sm text-gray-500">
               Don't have an account?{' '}
               <Link to="/register" className="text-navy font-medium hover:underline">Register</Link>
