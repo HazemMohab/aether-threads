@@ -56,13 +56,6 @@ export default function Login() {
               <Link to="/register" className="text-navy font-medium hover:underline">Register</Link>
             </p>
           </div>
-
-          {/* Dev hint */}
-          <div className="mt-6 pt-6 border-t border-gray-100 text-xs text-gray-400 space-y-1">
-            <p className="font-medium text-gray-500">Demo accounts:</p>
-            <p>Admin: admin@aetherthreads.com / Admin123!</p>
-            <p>Customer: customer@example.com / Customer123!</p>
-          </div>
         </div>
       </div>
     </div>
