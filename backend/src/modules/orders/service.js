@@ -71,7 +71,7 @@ const sendOrderConfirmationEmail = async ({ email, fullName, order, items }) => 
 
   try {
     await resend.emails.send({
-      from: 'Aether Threads <orders@aetherthreads.com>',
+      from: 'Aether Threads <onboarding@resend.dev>',
       to: email,
       subject: `Order Confirmed — #${orderId}`,
       html,
