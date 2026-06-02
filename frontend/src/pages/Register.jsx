@@ -38,7 +38,7 @@ export default function Register() {
 
           <form onSubmit={handleSubmit} className="space-y-5">
             {[
-              { name: 'full_name', label: 'Full Name', type: 'text', placeholder: 'Omar Aboubakr' },
+              { name: 'full_name', label: 'Full Name', type: 'text', placeholder: 'Full Name' },
               { name: 'email', label: 'Email', type: 'email', placeholder: 'you@example.com' },
               { name: 'password', label: 'Password', type: 'password', placeholder: 'Min. 8 characters' },
               { name: 'confirm', label: 'Confirm Password', type: 'password', placeholder: 'Repeat password' },
